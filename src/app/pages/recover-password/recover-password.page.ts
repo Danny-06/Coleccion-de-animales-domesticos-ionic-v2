@@ -29,9 +29,7 @@ export class RecoverPasswordPage implements OnInit {
   async alertResetPassword() {
     const alert = await this.alertController.create({
       header: 'Recovered password',
-      message: `Se le ha enviado un correo electrónico con un enlace
-                que le permitirá recuperar la contraseña.
-                You've been sent an email with a link to recover your password`,
+      message: `You've been sent an email with a link to recover your password`,
       buttons: ['Ok']
     })
 
