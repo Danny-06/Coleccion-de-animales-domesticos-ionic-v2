@@ -23,7 +23,7 @@ export class RecoverPasswordPage implements OnInit {
       await this.alertResetPassword()
       this.router.navigateByUrl('/login')
     })
-    .catch(() => this.alertError)
+    .catch(() => this.alertError())
   }
 
   async alertResetPassword() {
