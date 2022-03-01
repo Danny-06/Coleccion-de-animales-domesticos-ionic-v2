@@ -1,0 +1,7 @@
+{
+  "name": "coleccion-de-animales-domesticos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
