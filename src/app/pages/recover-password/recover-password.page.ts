@@ -38,7 +38,7 @@ export class RecoverPasswordPage implements OnInit {
 
   async alertError() {
     const alert = await this.alertController.create({
-      header: 'Recovering password',
+      header: 'Process has failed',
       message: `We couldn't send you an email to recover your password.
                 Try again later.`,
       buttons: ['Ok']
