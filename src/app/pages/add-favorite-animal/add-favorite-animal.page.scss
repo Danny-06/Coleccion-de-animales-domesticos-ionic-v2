@@ -1,0 +1,47 @@
+
+* {
+  box-sizing: border-box;
+}
+
+ion-content {
+  // --background: #1b1228;
+  --background: #0d3b2f;
+}
+
+
+::part(scroll) {
+  padding: 2rem 1rem;
+}
+
+
+ion-list,
+ion-list ion-item {
+  background: #312246 !important;
+  --background: #312246;
+  --border-color: #787183;
+}
+
+ion-item {
+  cursor: pointer;
+}
+
+ion-avatar {
+  width: 60px;
+  height: 60px;
+
+  border: solid 0.1em #fff;
+  background-color: currentColor;
+}
+
+
+img {
+  -webkit-user-drag: none;
+}
+
+p {
+  white-space: normal;
+}
+
+ion-item.favorite {
+  --background: #473378;
+}

@@ -1,0 +1,24 @@
+<ion-content>
+    <div id="user-container">
+        <div class="user-card">
+            <div class="user-name">
+                <img class="user-icon" [src]="user.image" (error)="user.image = userService.defaultUserImage" alt="user-icon">
+                {{ user.name }}
+            </div>
+            <div class="user-details">{{ user.details }}</div>
+        </div>
+        <div class="animals-count">
+            <div class="cats">{{ animalIcons.cat }}:        {{ getUserAnimalCount().cats }}</div>
+            <div class="dogs">{{ animalIcons.dog }}:        {{ getUserAnimalCount().dogs }}</div>
+            <div class="parrots">{{ animalIcons.parrot }}:  {{ getUserAnimalCount().parrots }}</div>
+        </div>
+    
+        <ion-button id="add-animal-btn" color="dark" fill="solid" (click)="goToAddFavoriteAnimal()">
+            Add Favorite Animals
+        </ion-button>
+
+        <ion-button id="edit-user-btn" color="dark" fill="solid" (click)="goToEditUser()">
+            Edit User Info
+        </ion-button>
+    </div>    
+</ion-content>

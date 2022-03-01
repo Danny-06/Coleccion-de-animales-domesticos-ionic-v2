@@ -1,0 +1,20 @@
+ion-content {
+  --background: #473378;
+}
+
+ion-toolbar {
+  --background: #473378;
+}
+
+ion-list {
+  background: #312246;
+}
+
+ion-item {
+  --background: #422668;
+  --inner-border-width: 0;
+}
+
+ion-item:not(:last-child) {
+  border-bottom: solid 2px #2227;
+}

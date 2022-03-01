@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar style="--background: #368158;">
+      <ion-title>Check the list of animals</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-item>
+  <ion-label>Filter</ion-label>
+  <ion-select value="all" [(ngModel)]="filterSelected" (ionChange)="filterAnimals()">
+      <ion-select-option *ngFor="let option of filterOptions" [value]="option.name">{{option.name | uppercase}}</ion-select-option>
+  </ion-select>
+</ion-item>
+
+<ion-content class="ion-padding">
+  <ion-fab id="add-user" slot="fixed" (click)="goTo('add-animal')">
+      <ion-fab-button>+</ion-fab-button>
+  </ion-fab>
+  <ion-list>
+      <ion-item *ngFor="let animal of animals" (click)="goTo('animal/' + animal.id)">
+          <ion-avatar slot="start">
+              <img [src]="animal.image" (error)="animal.image = animalService.defaultAnimalImage" [style]="animal.imageStyle">
+          </ion-avatar>
+          <ion-label>
+              <h2>{{ animal.name }}</h2>
+              <p>{{ animal.shortDescription }}</p>
+              <span>{{ animalIcons[animal.type] }}</span>
+          </ion-label>
+      </ion-item>
+  </ion-list>
+</ion-content>

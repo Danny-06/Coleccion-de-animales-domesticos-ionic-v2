@@ -1,0 +1,21 @@
+<ion-content>
+    <div id="user-form">
+        <h1>Change Your Info</h1>
+        <ion-item id="user-name">
+            <ion-label position="floating">User Name</ion-label>
+            <ion-input [(ngModel)]="user.name"></ion-input>
+        </ion-item>
+        <ion-item id="user-details">
+            <ion-label position="floating">Detaills (optional)</ion-label>
+            <ion-textarea [(ngModel)]="user.details"></ion-textarea>
+        </ion-item>
+
+        <ion-item class="user-image">
+            <ion-label style="display: block;">Image</ion-label>
+            <img [src]="user.image" (error)="user.image = userService.defaultUserImage" alt="animal image">
+            <ion-input type="file" (change)="handleInputFile($event)"></ion-input>
+        </ion-item>
+
+        <ion-button id="add-user-btn" color="dark" fill="solid" (click)="updateUser()">Update User</ion-button>
+    </div>
+</ion-content>

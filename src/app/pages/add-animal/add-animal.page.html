@@ -1,0 +1,48 @@
+<ion-content>
+  <div id="animal-form">
+      <h1>Create a new animal for the global colletion</h1>
+      <ion-item class="animal-name">
+          <ion-label position="floating">Name</ion-label>
+          <ion-input [(ngModel)]="animal.name"></ion-input>
+      </ion-item>
+      <ion-item class="animal-short-description">
+          <ion-label position="floating">Short Description (optional)</ion-label>
+          <ion-textarea [(ngModel)]="animal.shortDescription"></ion-textarea>
+      </ion-item>
+      <ion-item class="animal-description">
+          <ion-label position="floating">Description (optional)</ion-label>
+          <ion-textarea [(ngModel)]="animal.description"></ion-textarea>
+      </ion-item>
+      <ion-item class="animal-image">
+          <ion-label style="display: block;">Image</ion-label>
+          <img [src]="animal.image ? animal.image : animalService.defaultAnimalImage" alt="animal image">
+          <ion-input type="file" (change)="handleInputFile($event)"></ion-input>
+      </ion-item>
+      <ion-item class="animal-type">
+          <ion-label position="floating">Type</ion-label>
+          <ion-select [(ngModel)]="animal.type">
+              <ion-select-option *ngFor="let type of types" [value]="type">{{ type | uppercase }}</ion-select-option>
+          </ion-select>
+      </ion-item>
+      <ion-item class="animal-sex">
+          <ion-label position="floating">Sex</ion-label>
+          <ion-select [(ngModel)]="animal.sex">
+              <ion-select-option value="M">M</ion-select-option>
+              <ion-select-option value="F">F</ion-select-option>
+          </ion-select>
+      </ion-item>
+      <ion-item class="animal-age">
+          <ion-label position="floating">Age</ion-label>
+          <ion-input [(ngModel)]="animal.age" type="number" min="0"></ion-input>
+      </ion-item>
+      <ion-item class="animal-vaccinated">
+          <ion-label position="floating">Vaccinated</ion-label>
+          <ion-select [(ngModel)]="animal.vaccinated">
+              <ion-select-option [value]="true">Yes</ion-select-option>
+              <ion-select-option [value]="false">No</ion-select-option>
+          </ion-select>
+      </ion-item>
+
+      <ion-button class="add-animal-btn" color="dark" fill="solid" (click)="addAnimal()">Add Animal</ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "coleccion-animales-ionic": {
+      "hosting": {
+        "app": [
+          "coleccion-animales-ionic"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "coleccion-animales-ionic"
+  }
+}

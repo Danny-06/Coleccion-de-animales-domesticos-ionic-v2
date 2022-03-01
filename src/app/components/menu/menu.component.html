@@ -1,0 +1,23 @@
+<ion-menu side="end" menuId="main-menu" contentId="main">
+  <ion-header>
+      <ion-toolbar>
+         <ion-title>Side Menu</ion-title>
+      </ion-toolbar>
+  </ion-header>
+  <ion-content>
+      <ion-list>
+          <ion-item *ngIf="authService.getCurrentUser()" href="/main">
+              <ion-icon slot="start" name="home"></ion-icon>
+              Home
+          </ion-item>
+          <ion-item *ngIf="authService.getCurrentUser()" href="/user-details">
+              <ion-icon slot="start" name="person-circle-outline"></ion-icon>
+              Profile
+          </ion-item>
+          <ion-item *ngIf="authService.getCurrentUser()" (click)="authService.logout()" href="">
+              <ion-icon slot="start" name="power-outline"></ion-icon>
+              Log out
+          </ion-item>
+      </ion-list>
+  </ion-content>
+</ion-menu>

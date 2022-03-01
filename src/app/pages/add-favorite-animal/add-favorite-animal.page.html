@@ -1,0 +1,28 @@
+<ion-header >
+  <ion-toolbar style="--background: #368158;">
+      <ion-title>Choose your favorite animals</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-item>
+  <ion-label>Filter</ion-label>
+  <ion-select value="all" [(ngModel)]="filterSelected" (ionChange)="filterAnimals()">
+      <ion-select-option *ngFor="let option of filterOptions" [value]="option.name">{{ option.name | uppercase}}</ion-select-option>
+  </ion-select>
+</ion-item>
+
+<ion-content class="ion-padding">
+  <ion-list>
+      <ion-item class="{{ isFavoriteAnimal(animal.id) ? 'favorite' : '' }}" *ngFor="let animal of animals" (click)="toggleFavoriteAnimal(animal.id)">
+          <ion-avatar slot="start">
+              <img [src]="animal.image" [style]="animal.imageStyle" (error)="animal.image = animalService.defaultAnimalImage">
+          </ion-avatar>
+          <ion-label>
+              <h2>{{ animal.name }}</h2>
+              <p>{{ animal.shortDescription }}</p>
+              <span>{{ animalIcons[animal.type] }}</span>
+              <span class="favorite" *ngIf="isFavoriteAnimal(animal.id)">⭐</span>
+          </ion-label>
+      </ion-item>
+  </ion-list>
+</ion-content>

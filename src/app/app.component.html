@@ -1,3 +1,14 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-header>
+      <ion-toolbar>
+          <ion-buttons slot="start" *ngIf="hideBackButton()">
+              <ion-back-button [defaultHref]="handleBackButton()"></ion-back-button>
+          </ion-buttons>
+          <ion-buttons slot="end" *ngIf="this.authService.getCurrentUser()">
+              <ion-menu-button menu="main-menu"></ion-menu-button>
+          </ion-buttons>
+      </ion-toolbar>
+  </ion-header>
+  <ion-router-outlet id="main"></ion-router-outlet>
+  <app-menu></app-menu>
 </ion-app>

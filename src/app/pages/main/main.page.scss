@@ -1,0 +1,56 @@
+
+* {
+  box-sizing: border-box;
+}
+
+ion-content {
+  --background: #1b1228;
+}
+
+
+::part(scroll) {
+  padding: 2rem 1rem;
+  padding-bottom: 7rem;
+}
+
+
+ion-list,
+ion-list ion-item {
+  background: #312246 !important;
+  --background: #312246;
+  --border-color: #787183;
+}
+
+ion-item {
+  cursor: pointer;
+}
+
+ion-avatar {
+  width: 60px;
+  height: 60px;
+
+  border: solid 0.1em #fff;
+  background-color: currentColor;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+p {
+  white-space: normal;
+}
+
+
+#add-user {
+  right: 0;
+  bottom: 0;
+  margin-right: 1.2rem;
+  margin-bottom: 1rem;
+
+  font-size: 4rem;
+}
+
+#add-user ion-fab-button {
+  font-size: inherit;
+}

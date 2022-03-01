@@ -1,0 +1,31 @@
+ion-content {
+  --background: #1b1228;
+}
+
+::part(scroll) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  padding: 0 1rem;
+}
+
+ion-toolbar {
+  --background: #312246;
+}
+
+ion-item {
+  --background: #312246;
+}
+
+ion-button {
+  --background: #473378;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
