@@ -4,7 +4,7 @@
           <ion-buttons slot="start" *ngIf="hideBackButton()">
               <ion-back-button [defaultHref]="handleBackButton()"></ion-back-button>
           </ion-buttons>
-          <ion-buttons slot="end" *ngIf="this.authService.getCurrentUser()">
+          <ion-buttons slot="end" *ngIf="authService.getCurrentUser()">
               <ion-menu-button menu="main-menu"></ion-menu-button>
           </ion-buttons>
       </ion-toolbar>
