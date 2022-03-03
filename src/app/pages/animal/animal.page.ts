@@ -24,6 +24,9 @@ export class AnimalPage implements OnInit {
     if (!id) return console.log(`ID is ${id}`)
 
     this.animal = await this.animalService.getAnimal(id)
+
+    if (!this.animal) return this.router.navigateByUrl('main')
+
     if (!this.animal.shortDescription) this.animal.shortDescription = 'Short Description no available' 
     if (!this.animal.description) this.animal.description = 'Description no available'
   }
