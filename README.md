@@ -15,6 +15,7 @@ donde además podemos filtrar segun la especie.
 ![image](https://user-images.githubusercontent.com/72435753/157006520-e9e5b6a8-5131-4fc4-9a93-787a1639c7c2.png)
 
 Además podemos añadir a la colección global un nuevo animal dandole al botón flotante.
+#
 ![image](https://user-images.githubusercontent.com/72435753/157009749-7602f534-ea40-4442-8ee6-6ec844add571.png)
 
 
@@ -33,10 +34,7 @@ y añadir o quitar animales de nuestros favoritos
 ![image](https://user-images.githubusercontent.com/72435753/157008254-5bd88dd7-8dfc-41ca-8846-f9b8d20af1cc.png)
 
 
-Y por supuesto podemos editar tanto el nombre como los detalles de cada usuario con el icono del lápiz
-y borrar al usuario con el icono del cubo de la basura.
-#
-![image](https://user-images.githubusercontent.com/72435753/145871459-e38b0541-5eac-4797-86e8-97c71e1b72c5.png)
+![image](https://user-images.githubusercontent.com/72435753/157010148-eb2f822b-5810-4f81-9cd2-8902e7e69b0a.png)
 
 
 Haciendo click en alguno de los usuarios nos lleva a otra pantalla en donde podemos visualizar su información
