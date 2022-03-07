@@ -12,12 +12,12 @@ En la pantalla principal tenemos el listado de animales
 
 donde además podemos filtrar segun la especie.
 #
-![image](https://user-images.githubusercontent.com/72435753/145869255-97f9226f-8a2c-4a4e-9660-98527034e2c7.png)
+![image](https://user-images.githubusercontent.com/72435753/157006520-e9e5b6a8-5131-4fc4-9a93-787a1639c7c2.png)
 
 
 Haciendo click en alguno de los animales, se nos despliega en otra página más información sobre el animal.
 #
-![image](https://user-images.githubusercontent.com/72435753/145869775-e8647e8a-a28d-42cb-a6d7-f01d06013f8d.png)
+![image](https://user-images.githubusercontent.com/72435753/157006605-76830095-ebfd-4caa-a77c-2b445b4ff164.png)
 
 
 Desde la barra de navegación podemos acceder al apartado de usuarios
