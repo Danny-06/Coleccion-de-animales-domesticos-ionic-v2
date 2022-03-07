@@ -5,7 +5,11 @@ Además puedes editar tu perfil y añadir animales favoritos de la colección gl
 
 
 La aplicación cuenta con un sisteme de registro e inicio de sesión
+#
 ![image](https://user-images.githubusercontent.com/72435753/157011168-3a83294c-ff27-495b-822d-7b6d6edfa432.png)
+
+![image](https://user-images.githubusercontent.com/72435753/157011293-44f092ec-4d34-402b-a35a-decd5b805786.png)
+
 
 
 En la pantalla principal tenemos el listado de animales
