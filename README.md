@@ -4,6 +4,9 @@ App en la puedes registrarte ver la lista de animales disponibles e incluso aña
 Además puedes editar tu perfil y añadir animales favoritos de la colección global a tu propia lista.
 
 
+La aplicación cuenta con un sisteme de registro e inicio de sesión
+![image](https://user-images.githubusercontent.com/72435753/157011168-3a83294c-ff27-495b-822d-7b6d6edfa432.png)
+
 
 En la pantalla principal tenemos el listado de animales
 #
