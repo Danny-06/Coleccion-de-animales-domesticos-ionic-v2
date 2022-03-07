@@ -20,13 +20,13 @@ Haciendo click en alguno de los animales, se nos despliega en otra página más 
 ![image](https://user-images.githubusercontent.com/72435753/157006605-76830095-ebfd-4caa-a77c-2b445b4ff164.png)
 
 
-Desde la barra de navegación podemos acceder al apartado de usuarios
+Desde el menu latera podemos ir al perfil
 #
-![image](https://user-images.githubusercontent.com/72435753/145870031-f3048f0d-fefc-4d38-b511-65571781a6d7.png)
+![image](https://user-images.githubusercontent.com/72435753/157007651-d0944ba8-3633-4c21-abd9-8a193d551834.png)
 
-Y si hacemos click al icono flotante de abajo, podremos añadir un usuario al cual le tenemos que añadir un nombre obligatoriamente
+Ya en nuestro perfil podemos editar la foto o nuestra descripción
 #
-![image](https://user-images.githubusercontent.com/72435753/145870403-118dc39d-53f0-4f23-ad0a-470c23874363.png)
+![image](https://user-images.githubusercontent.com/72435753/157008254-5bd88dd7-8dfc-41ca-8846-f9b8d20af1cc.png)
 
 
 Y por supuesto podemos editar tanto el nombre como los detalles de cada usuario con el icono del lápiz
