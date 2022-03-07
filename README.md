@@ -36,10 +36,4 @@ y añadir o quitar animales de nuestros favoritos
 
 ![image](https://user-images.githubusercontent.com/72435753/157010148-eb2f822b-5810-4f81-9cd2-8902e7e69b0a.png)
 
-
-Haciendo click en alguno de los usuarios nos lleva a otra pantalla en donde podemos visualizar su información
-y añadir mediante un botón los animales favoritos que le queramos asignar a dicho usuario desde otra pantalla similar a la principal.
-#
-![image](https://user-images.githubusercontent.com/72435753/145871650-5f1de8d9-82d5-410e-a93d-50747d77f129.png)
-
-![image](https://user-images.githubusercontent.com/72435753/145871841-3cab99e3-152d-4302-a42a-e6e06b8c213a.png)
+![image](https://user-images.githubusercontent.com/72435753/157010356-f59945d2-1e2d-43b7-b0ea-090183137f4d.png)
