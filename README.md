@@ -14,17 +14,21 @@ donde además podemos filtrar segun la especie.
 #
 ![image](https://user-images.githubusercontent.com/72435753/157006520-e9e5b6a8-5131-4fc4-9a93-787a1639c7c2.png)
 
+Además podemos añadir a la colección global un nuevo animal dandole al botón flotante.
+![image](https://user-images.githubusercontent.com/72435753/157009749-7602f534-ea40-4442-8ee6-6ec844add571.png)
+
 
 Haciendo click en alguno de los animales, se nos despliega en otra página más información sobre el animal.
 #
 ![image](https://user-images.githubusercontent.com/72435753/157006605-76830095-ebfd-4caa-a77c-2b445b4ff164.png)
 
 
-Desde el menu latera podemos ir al perfil
+Desde el menu lateral podemos ir al perfil
 #
 ![image](https://user-images.githubusercontent.com/72435753/157007651-d0944ba8-3633-4c21-abd9-8a193d551834.png)
 
-Ya en nuestro perfil podemos editar la foto o nuestra descripción
+Ya en nuestro perfil podemos ver los tipos de animales que tenemos en favoritos editar la foto o nuestra descripción
+y añadir o quitar animales de nuestros favoritos
 #
 ![image](https://user-images.githubusercontent.com/72435753/157008254-5bd88dd7-8dfc-41ca-8846-f9b8d20af1cc.png)
 
